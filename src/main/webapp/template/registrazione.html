@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TEST SPOT</title>        
+
+        <link rel="stylesheet" href="css/bootstrap.css" >
+        <link rel="stylesheet" href="css/style.css" >
+        <link rel="stylesheet" href="css/test.css" >
+
+        <script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+        <script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+    <body style='background: rgb(247,247,247)'>
+        <div id="pnl-top">
+            <img src="img/logo.png" width="90" height="45" />
+        </div>
+
+        <div id="pnl-main">
+            <div>
+                <div id="pnl-header" class="text-center">
+                    <h2 id="titolo">Registrazione</h2>
+                </div>
+
+                <div id="pnl-main">
+                    <div class="panel-body">
+                        <div class="container">
+                            <form name="frmRegUser"
+                                  class="form-horizontal" style="background: inherit"
+                                  >
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="col-md-6">
+                                            <input type="text" id="name" name="name"
+                                                   class="form-control input-sm" placeholder="Ragione sociale" />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="text" id="id" name="id" readonly
+                                                   class="form-control input-sm" placeholder="Codice #Id" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="col-md-4">
+                                            <input type="text" id="piva" name="piva"
+                                                   class="form-control input-sm" placeholder="Partita IVA" />
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="text" id="cfisc" name="cfisc"
+                                                   class="form-control input-sm" placeholder="Codice fiscale" />
+                                        </div>
+                                        <div class="col-md-4">
+                                            <input type="text" id="tel" name="tel"
+                                                   class="form-control input-sm" placeholder="Telefono" />
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="form-group col-md-12">
+                                        <div class="col-md-6">
+                                            <input type="text" id="address" name="address"
+                                                   class="form-control input-sm" placeholder="Indirizzo" />
+                                        </div>
+                                        <div class="col-md-6">
+                                            <input type="email" id="email" name="email" readonly
+                                                   class="form-control input-sm" placeholder="Email" />
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row">
+                                    <hr/>
+                                    <div class="col-sm-6" style="text-align:right">
+                                        <button type="button" id="btnLogin" 
+                                                class="btn btn-primary btn-sm"
+                                                onClick="doRegistrazione();">Conferma</button>
+                                    </div>
+                                    <div class="col-sm-6" style="text-align:left">
+                                        <button type="reset" id="btnCancel" 
+                                                class="btn btn-warning btn-sm"
+                                                onClick="doHome();">Annulla</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>            
+                </div>
+
+            </div>
+        </div>
+    </body>
+</html>

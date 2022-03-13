@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>TEST SPOT</title>        
+
+        <link rel="stylesheet" href="css/bootstrap.css" >
+        <link rel="stylesheet" href="css/style.css" >
+        <link rel="stylesheet" href="css/test.css" >
+
+        <script src="webjars/jquery/1.9.1/jquery.min.js"></script>
+        <script src="webjars/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+        <script src="js/custom.js"></script>
+    </head>
+    <body style="background-image: url('/spot/img/sfondo.jpg')">
+        <div id="pnl-top">
+            <img src="img/logo.png" width="90" height="45" />
+        </div>
+
+        <div id="pnl-main">
+            <div>
+                <div class="container-fluid">
+                    <div id="pnl-login" class="container">
+                        <div class="panel panel-default pnl-login" style='border-radius: 20px'>
+                            <div class="panel-body m-0 p-0">
+                                <div class="text-center mt-10">
+                                    <h2>Login</h2>
+                                </div>
+                                <form id="pnl-login">
+                                    <div class="row">
+                                        <div class="form-group col-md-12" style="text-align:center">
+                                            <input type="email" id="email" name="email"
+                                                   class="form-control input-sm" placeholder="Email"/>
+                                        </div>
+                                    </div>
+                                    <div class="row">
+                                        <div class="form-group col-md-12" style="text-align:center">
+                                            <input type="password" ng-model="credentials.password" id="password" name="password"
+                                                   class="form-control input-sm"
+                                                   placeholder="Enter Password"/>
+                                        </div>
+                                    </div>
+
+                                    <div class="row">
+                                        <hr/>
+                                        <div class="col-sm-6" style="text-align:right">
+                                            <button type="button" id="btnLogin" 
+                                                    class="btn btn-primary btn-sm"
+                                                    onClick="doLogin();">Login</button>
+                                        </div>
+                                        <div class="col-sm-6" style="text-align:left">
+                                            <button type="reset" id="btnCancel" 
+                                                    class="btn btn-warning btn-sm">Annulla</button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </body>
+</html>

@@ -1,0 +1,67 @@
+html {
+    border: 0px!important;
+    margin: 0px!important;
+    padding: 0px!important;    
+    background-size: 1920px 1080px;
+
+}
+body {
+    background: transparent;
+    border: 0px!important;
+    margin: 0px!important;
+    padding: 0px!important;
+}
+h2 {
+    border: 0px!important;
+    margin: 0px!important;
+    padding: 0px!important;
+}
+
+.btn {
+    padding-left: 30px!important;
+    padding-right: 30px!important;
+    padding-bottomt: 5px!important;
+    padding-top: 5px!important;    
+    border-radius: 10px
+}
+
+#pnl-top {
+    background: white;
+    height: 50px;
+}  
+#pnl-header {
+    color: azure;
+    font-size: large;
+    height: 80px;
+    margin: 0;
+    padding-bottom: 25px;
+    padding-top: 20px;
+    
+    background: #6571b3; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(-120deg, #6571b3, #5ca5b9); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(-120deg, #6571b3, #5ca5b9); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(-120deg, #6571b3, #5ca5b9); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(-120deg, #6571b3, #5ca5b9); /* Standard syntax */
+}
+#pnl-login .panel {
+    color: aliceblue;
+    background:#98c0eb;
+    opacity: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%; 
+    transform: translateX(-50%) translateY(-50%);
+}
+
+#pnl-login form {
+    background: inherit;
+    margin: 0;
+    margin-top: 20px;
+    padding: 20px;
+    width: 400px;
+}
+
+#pnl-main {
+    margin: 0;
+    padding: 0
+}
